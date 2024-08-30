@@ -31,7 +31,7 @@ header{
 }
 header p{
     margin-top: 7px;
-    font-family: "WorkSans";
+    font-family: "WorkSans" ;
     font-size: 18px;
     font-weight: lighter;
 }
@@ -39,7 +39,7 @@ h1{
     width: 500px;
     margin: 50px auto;
     overflow-wrap: break-word;
-    font-family: "DidactGothic";
+    font-family:  "DidactGothic";
     font-size: 5em;
     font-weight: lighter;
 }
@@ -52,6 +52,107 @@ font-weight: lighter;
 }
 
 .black {
-background-color: blue;
+background-size: cover;
+background-repeat: no-repeat;
+height: 75vh;
+width: 100vw;
+background-position: center;
+padding: 6em;
+line-height: 4em;
 }
 
+.yearlight{
+    color: #9e9e9e;
+    font-family: "WorkSans" ;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+.h3light{
+    font-family: "DidactGothic";
+    color:#fff;
+    font-size: 5em;
+    font-weight: lighter;
+}
+
+.btnlight{
+    border: 2px solid #9e9e9e;
+    padding: 13px 18px;
+    font-family:"FjallaOne";
+    color: #fff;
+    opacity: 0.8;
+    background: none;
+}
+
+.numberlight{
+    text-align: right;
+    color: #9e9e9e;
+    font-family: "FjallaOne";
+    font-size: 7.5em;
+    font-weight: lighter;
+    opacity: 0.3;
+    margin-top: 1em;
+
+}
+
+
+.section1 {
+    background-image: url(./../img/portfolio2.jpg);
+    
+}
+.section3 {background-image: url(./../img/portfolio4.jpg);
+}
+
+.section2 {
+    background-image: url(./../img/portfolio3.png);
+    background-size: contain;
+}
+
+.section4 {
+    background-image: url(./../img/portfolio5.png);
+}
+
+.white{
+    background-size: cover;
+background-repeat: no-repeat;
+height: 85vh;
+width: 100vw;
+background-position: center;
+padding: 6em;
+line-height: 4em;
+}
+
+.yeardark{
+    color: #666;
+    font-family: "WorkSans" ;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.h3dark{
+    font-family: "DidactGothic";
+    color:#000;
+    font-size: 5em;
+    font-weight: lighter;
+}
+
+.btndark{
+    border: 2px solid #000;
+    padding: 13px 18px;
+    font-family:"FjallaOne";
+    color: #000;
+    opacity: 0.8;
+    background: none;
+}
+
+.numberdark{
+    text-align: right;
+    color: #666;
+    font-family: "FjallaOne";
+    font-size: 7.5em;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-top: 1em;
+
+}
