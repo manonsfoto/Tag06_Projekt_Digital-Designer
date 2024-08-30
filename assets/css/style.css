@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: "DidactGothic";
     src: url(../fonts/DidactGothic-Regular.ttf);
@@ -11,8 +17,41 @@
     src: url(../fonts/WorkSans-Regular.ttf);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Farben 
+#9e9e9e
+#fff
+#000
+#333
+#666 */
+body{
+    width: 1440px;
 }
+header{
+    text-align: center;
+}
+header p{
+    margin-top: 7px;
+    font-family: "WorkSans";
+    font-size: 18px;
+    font-weight: lighter;
+}
+h1{
+    width: 500px;
+    margin: 50px auto;
+    overflow-wrap: break-word;
+    font-family: "DidactGothic";
+    font-size: 5em;
+    font-weight: lighter;
+}
+
+header h2{
+margin: 70px auto;
+font-family: "WorkSans";
+font-size: 7.5em;
+font-weight: lighter;
+}
+
+.black {
+background-color: blue;
+}
+
