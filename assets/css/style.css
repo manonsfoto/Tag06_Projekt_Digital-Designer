@@ -6,6 +6,8 @@
 
 html{
     scroll-behavior: smooth;
+    /* von Steffil Tag02
+    Verbindung zwischen Zeil 54 und Zeile 10 durch ID Vergebung Sprung zum Anfang der Seite  */
 }
 
 @font-face {
