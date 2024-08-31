@@ -23,19 +23,23 @@
 #000
 #333
 #666 */
+
 body{
     width: 1440px;
+    margin: 0 auto;
 }
 header{
     text-align: center;
     color: #000;
 }
+
 header p{
     margin-top: 7px;
     font-family: "WorkSans";
     font-size: 1.25rem;
     font-weight: lighter;
 }
+
 h1{
     width: 500px;
     margin: 50px auto;
@@ -81,6 +85,7 @@ header h2{
     color: #fff;
     opacity: 0.8;
     background: none;
+    cursor: pointer;
 }
 
 .numberlight{
@@ -93,20 +98,23 @@ header h2{
     margin-top: 0.6em;
 }
 
-
-
 .section1 {
     background-image: url(./../img/portfolio2.jpg); 
+    background-attachment:fixed;
+    /* To Create a Parallax Scrolling Effect  background-attachment:fixed; */
 }
 .section3 {
     background-image: url(./../img/portfolio4.jpg);
+    background-attachment:fixed;
 }
 
 .section2 {
     background-image: url(./../img/portfolio3.png);
+    background-attachment:fixed;
 }
 .section4 {
     background-image: url(./../img/portfolio5.png);
+    background-attachment:fixed;
 }
 
 .white{
@@ -138,6 +146,7 @@ header h2{
     color: #000;
     opacity: 0.8;
     background: none;
+    cursor: pointer;
 }
 
 .numberdark{
@@ -189,10 +198,36 @@ a{
     font-size: 7.5em;
     text-decoration: none;
 }
+
 footer p{
     padding-top: 10em;
 }
 
 .heart{
     margin-bottom: 5em;
+}
+
+a:hover{
+    text-decoration: underline;
+    }
+    
+.btnlight:hover{
+    background-color: #fff;
+    color: #000;
+    border: #fff;
+}
+
+.btnlight:hover~.numberlight{
+    color: #9e9e9e;
+    opacity: 1;
+}
+
+.btndark:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* CSS Combinators */
+.btndark:hover~.numberdark{
+    color: #000;
+    opacity: 1;
 }
