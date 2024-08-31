@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: "DidactGothic";
     src: url(../fonts/DidactGothic-Regular.ttf);
@@ -230,4 +234,21 @@ a:hover{
 .btndark:hover~.numberdark{
     color: #000;
     opacity: 1;
+}
+
+.heart{
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse{
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);}
 }
